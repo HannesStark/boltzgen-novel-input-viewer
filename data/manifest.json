@@ -4726,7 +4726,7 @@
     "predicted_opacity": 0.72
   },
   "production_results": {
-    "status": "pending",
+    "status": "complete",
     "attempts_expected": 4000,
     "cells_expected": 40,
     "metrics": [
@@ -4736,7 +4736,80 @@
       "plip_hbonds_refolded",
       "plip_saltbridge_refolded",
       "delta_sasa_refolded"
-    ]
+    ],
+    "attempts_measured": 4000,
+    "cells_complete": 40,
+    "summary": "Predicted inputs increased mean binder pTM by 0.0482 (95% CI 0.0202 to 0.0735) for mini-proteins and 0.0215 (0.0121 to 0.0311) for nanobodies. Nanobody hydrogen-bond counts decreased by 0.171 (\u22120.335 to \u22120.017). The other nine endpoint/modality intervals included zero; their estimates and intervals are shown below. These results do not establish equivalence or non-inferiority, and the larger target-specific changes remain visible in the per-target figures.",
+    "methods": "All 4,000 attempts have all six metrics and passed independent artifact audits. Each cell contains 100 attempts. Equal weight is given to ten targets; intervals use 10,000 paired target-bootstrap replicates and are pointwise, unadjusted. These computational endpoints do not measure experimental binding success.",
+    "figures": [
+      {
+        "title": "Six-score comparison",
+        "png": "data/results/six_metric_input_comparison.png",
+        "pdf": "data/results/six_metric_input_comparison.pdf",
+        "caption": "Small points show ten paired target means; large points and bars show equal-target means and pointwise 95% target-bootstrap intervals. Blue: experimental; orange: predicted."
+      },
+      {
+        "title": "Paired target differences",
+        "png": "data/results/paired_metric_differences.png",
+        "pdf": "data/results/paired_metric_differences.pdf",
+        "caption": "Predicted minus experimental input. Pointwise 95% paired target-bootstrap intervals; no multiple-comparison adjustment. Intervals crossing zero do not establish equivalence."
+      },
+      {
+        "title": "Mini-protein results by target",
+        "png": "data/results/per_target_mini_protein.png",
+        "pdf": "data/results/per_target_mini_protein.pdf",
+        "caption": "Each point averages 100 attempts for one target and condition. Lines connect the paired conditions."
+      },
+      {
+        "title": "Nanobody results by target",
+        "png": "data/results/per_target_nanobody.png",
+        "pdf": "data/results/per_target_nanobody.pdf",
+        "caption": "Each point averages 100 attempts for one target and condition. Lines connect the paired conditions."
+      }
+    ],
+    "downloads": [
+      {
+        "label": "Paired estimates and intervals",
+        "url": "data/results/paired_summary.csv"
+      },
+      {
+        "label": "Target means",
+        "url": "data/results/target_means.csv"
+      },
+      {
+        "label": "Paired target differences",
+        "url": "data/results/target_differences.csv"
+      },
+      {
+        "label": "Measurement counts",
+        "url": "data/results/measured_attempts.csv"
+      },
+      {
+        "label": "Methods and limitations",
+        "url": "data/results/methods_and_results.md"
+      },
+      {
+        "label": "Result provenance",
+        "url": "data/results/provenance.json"
+      }
+    ],
+    "asset_sha256": {
+      "paired_metric_differences.pdf": "ae869b2dafe21311379046c26bb18fc020197b11cec004c36a13d4cea5934913",
+      "six_metric_input_comparison.pdf": "37bcb4c72824f080c6182c194c93909ec39974fc676bdc1649dfcd77c11b6199",
+      "target_differences.csv": "0fc93277c52127f901d9af16b6548dd5df52ec32aa714c2bb1528bfc1f2cd53e",
+      "per_target_mini_protein.pdf": "f1d0095599c17c915ca1895be09331d2482717072c1a4c6ee6f88bca302c5188",
+      "methods_and_results.md": "37ff0769e73b1b55ca90b121a4482d1d8aef4b103fe801f5ceabef5224e22499",
+      "paired_summary.csv": "3672b7ca0a464b8a5229785b90f8dd56899415b7c5e6385976b589cfb0f7dffb",
+      "paired_metric_differences.png": "f01702b4af108dda29e8f45f929e4d1fe440f699a18fefd5c409b95cfe87d0d1",
+      "per_target_mini_protein.png": "314f28107527b2742323a2e7bd67c6cc01599f457c751c8665390ce2d0a3a601",
+      "per_target_nanobody.pdf": "d5c333c1f7a66ecbde299d94832fd55d92bb878f75fd9524ff46bf703f6c3338",
+      "measured_attempts.csv": "0aabbcf8fa5fc1b4076635d17863137db73b96277a4ce0c5eabb49b8011c35bf",
+      "provenance.json": "6dc3c6d954741d9925248befe638968126bbf5f97e320e27a7d6d73a5534b9fe",
+      "target_means.csv": "fb9a6b0c9da9880b48af54691b238bbd574d3ecade3f0cd15374e671649c2cf2",
+      "per_target_nanobody.png": "0c3e8d409d0b4689e30ea607b2d4e87583c316c3e7f24ae9493aa0c9593d56da",
+      "six_metric_input_comparison.png": "8963b8f28939631b378009c8d8a5d6cec4c81572bd34607cd008acf4aa1905e9"
+    },
+    "completed_at": "2026-11-01T22:00:20.556378+00:00"
   },
   "provenance": {
     "source_pool_manifest_sha256": "7e5afbd7e02e14aa7be25fb64ed2bdb4428853c54751887556ddfc8a550627b1",

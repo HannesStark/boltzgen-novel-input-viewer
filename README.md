@@ -1,24 +1,28 @@
 # BoltzGen novel-target input comparison
 
-Public, read-only Mol* viewer for the curated experimental/predicted structural inputs used in the BoltzGen novel-target comparison. The viewer exposes an explicit overlay transform, target qualification labels, confidence metrics, and provenance for each displayed coordinate asset.
+[Open the public Mol* viewer](https://hannesstark.github.io/boltzgen-novel-input-viewer/) · [9x86_A aligned overlay](https://hannesstark.github.io/boltzgen-novel-input-viewer/?record=9x86_A&view=overlay)
 
-## Viewer
+Thirteen candidate targets are shown with measured qualification labels: ten in the frozen panel, two qualified but unselected, and one rejected for measured accuracy. Blue is experimental and orange is predicted, aligned offline with recorded correspondence and transforms.
 
-Open the [interactive viewer](https://hannesstark.github.io/boltzgen-novel-input-viewer/) or a target directly, for example [9x86_A overlay](https://hannesstark.github.io/boltzgen-novel-input-viewer/?record=9x86_A&view=overlay).
+The final comparison contains 4,000 attempts across forty cells; all six endpoints are present and independently audited. The site includes six-score PDF/PNG figures, paired target-level estimates and intervals, per-target plots, counts and provenance. Predicted inputs increased binder pTM in both modalities and slightly reduced nanobody hydrogen-bond counts. The other nine endpoint/modality intervals included zero. This is a computational comparison conditioned on accurate target predictions, not evidence of experimental binding success or equivalence. Pointwise intervals are unadjusted across comparisons.
 
-The blue structure is the experimental coordinate frame and the orange structure is the predicted coordinate frame after the recorded rigid alignment. The site reports the alignment convention, RMSD, asset hashes, PDB release date, selection status, and measured prediction-quality gates.
+See [methods and results](data/results/methods_and_results.md) and [result provenance](data/results/provenance.json). The authoritative attempt data and operational evidence are retained separately; the public site contains only curated structural and comparison assets.
 
-## Scientific scope
+## Rebuild
 
-The manifest contains 13 post-cutoff candidate targets. Ten are frozen for the comparison; one fails the measured accuracy gate and two qualified candidates are retained as non-selected audit context. The production six-score comparison is marked pending until the supervised 4,000-attempt run is complete.
+Mol* is pinned to 4.18.0. From the repository root:
 
-This site contains curated structure coordinates and metadata only. It does not expose raw datasets, credentials, internal paths, or unpublished production outputs.
+```sh
+mkdir -p source/public
+cp -R data source/public/
+cd source
+npm ci
+SITE_BASE=/boltzgen-novel-input-viewer/ npm run build
+SITE_BASE=/boltzgen-novel-input-viewer/ npm test
+```
 
-## Reproducibility
+Copy the contents of `source/dist/` into the repository root to update the static snapshot. The source public staging directory and dependencies are not tracked. GitHub Pages serves `main:/`.
 
-- Website manifest SHA-256: `6551d24ba1bd5569bdc56f73fc40e79e16c461c159bcd56303650a738fb89594`
-- Mol* dependency: 4.18.0
-- Build source and browser tests are under [`source/`](./source/).
-- Coordinate assets are gzip-compressed and independently hash-checked by the browser before rendering.
+The build validates all thirteen records, twenty-six compressed coordinate assets and every final-result checksum. Five Chromium tests cover overlays and history, rejected labels, mobile overflow, final figures/downloads and visible coordinate errors.
 
-The public deployment is built from the repository `main` branch with GitHub Pages.
+Website manifest SHA-256: `ba95d90b0963f5618b3fd9a0c6decab160e7085bd608d53b3af3383086686542`.
