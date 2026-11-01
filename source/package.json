@@ -1,0 +1,30 @@
+{
+  "name": "agentic-design-review",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/validate.mjs && tsc --noEmit && vite build",
+    "dev": "vite",
+    "test": "playwright test",
+    "test:browser": "playwright test",
+    "typecheck": "tsc --noEmit",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "molstar": "4.18.0",
+    "pako": "2.1.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "rxjs": "7.8.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.60.0",
+    "@types/pako": "2.0.4",
+    "typescript": "5.7.3",
+    "vite": "6.4.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

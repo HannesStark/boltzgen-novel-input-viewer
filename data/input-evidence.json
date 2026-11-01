@@ -1,0 +1,590 @@
+{
+  "manifest_sha256": "6551d24ba1bd5569bdc56f73fc40e79e16c461c159bcd56303650a738fb89594",
+  "records": [
+    {
+      "37sl_A": {
+        "experimental": {
+          "url": "data/structures/37sl_A.experimental.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 109251,
+          "uncompressed_bytes": 415514,
+          "compressed_sha256": "3e2d9a94eb4467f8a4f5c3084701c1d274610d1bc955cb74e441fe0979cc2939",
+          "uncompressed_sha256": "42d14165270cb55f87f5d6bf2211420b126a299dfaf6bf2e90969b2cc3822b3a"
+        },
+        "predicted": {
+          "url": "data/structures/37sl_A.predicted.aligned.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 44100,
+          "uncompressed_bytes": 171599,
+          "compressed_sha256": "881f85f394fdec294e3a8b5caa9f2e1dbb58a01f6c21b30601b75c3b8b545011",
+          "uncompressed_sha256": "9868aef37b40ac9471483b04339687b952e17a147e4d7ddfb688e0bb22252039"
+        },
+        "alignment": {
+          "available": true,
+          "direction": "predicted coordinates to experimental coordinates",
+          "convention": "x_experimental = R @ x_predicted + t; R is row-major 3x3; coordinates in predicted asset are already materialized in experimental frame",
+          "rotation": [
+            0.12715202094346723,
+            -0.9433276202737532,
+            -0.30653770469332087,
+            0.15360963965866606,
+            0.3240452797474884,
+            -0.9334874049912552,
+            0.9799165485764223,
+            0.0716076637101756,
+            0.18610722802740218
+          ],
+          "translation": [
+            7.822895212750982,
+            20.6814549405555,
+            56.16191137779923
+          ],
+          "method": "Kabsch least-squares on observed C-alpha correspondence; offline generator build_manifest.py",
+          "observed_ca_rmsd_angstrom": 0.685464771011202
+        }
+      }
+    },
+    {
+      "37sn_A": {
+        "experimental": {
+          "url": "data/structures/37sn_A.experimental.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 131671,
+          "uncompressed_bytes": 508437,
+          "compressed_sha256": "3b775118c2facee16f6498a37a501b8e2dba43034c6e0c5dfda49e149ba6eb04",
+          "uncompressed_sha256": "5a6ded38628e1d101d4beeca11baffeeea56ff0b567d7eb815c01307b0470459"
+        },
+        "predicted": {
+          "url": "data/structures/37sn_A.predicted.aligned.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 53541,
+          "uncompressed_bytes": 209127,
+          "compressed_sha256": "f352d0a94d8965aee4b1a4818500d7a01bd398ea4a8d2a9ec8729c1d15e18128",
+          "uncompressed_sha256": "608ad01018599f91063874c398a06c60e00b4c4ef4a729750d9f35f5f40fd6d0"
+        },
+        "alignment": {
+          "available": true,
+          "direction": "predicted coordinates to experimental coordinates",
+          "convention": "x_experimental = R @ x_predicted + t; R is row-major 3x3; coordinates in predicted asset are already materialized in experimental frame",
+          "rotation": [
+            0.41258888625755696,
+            -0.8078003077440717,
+            -0.4209858355637771,
+            -0.31442147370858736,
+            -0.560043853637475,
+            0.766478974841324,
+            -0.8549324814321124,
+            -0.1838737197412123,
+            -0.4850576330508173
+          ],
+          "translation": [
+            7.107291388060885,
+            -0.20937309338427146,
+            -1.9364590185925168
+          ],
+          "method": "Kabsch least-squares on observed C-alpha correspondence; offline generator build_manifest.py",
+          "observed_ca_rmsd_angstrom": 2.2674342955408098
+        }
+      }
+    },
+    {
+      "8bux_A": {
+        "experimental": {
+          "url": "data/structures/8bux_A.experimental.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 120685,
+          "uncompressed_bytes": 398571,
+          "compressed_sha256": "353fc4fbc7da478bf17a7ffe9d292fcb7bd6ba5c8043053a4eed8a84235e5791",
+          "uncompressed_sha256": "df186df19b9e1fde7bd2fb4e77bcb0723de113922182c1bb12bc97b43efed951"
+        },
+        "predicted": {
+          "url": "data/structures/8bux_A.predicted.aligned.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 50966,
+          "uncompressed_bytes": 196195,
+          "compressed_sha256": "5094275416c81f01e8e72203e31c96e2abb98bd2089bd8a6f3caa58180a76b49",
+          "uncompressed_sha256": "5a7bda8e531a6032c5ff53a0a9a50f075a75f869f191ded0e092b82da8b47cfa"
+        },
+        "alignment": {
+          "available": true,
+          "direction": "predicted coordinates to experimental coordinates",
+          "convention": "x_experimental = R @ x_predicted + t; R is row-major 3x3; coordinates in predicted asset are already materialized in experimental frame",
+          "rotation": [
+            -0.3801447068959671,
+            0.5510097712470282,
+            -0.7428850744289306,
+            0.628202700147358,
+            -0.4356914917194859,
+            -0.6446194936323432,
+            -0.6788603459818141,
+            -0.7117310981217188,
+            -0.18052001168819012
+          ],
+          "translation": [
+            46.770083600879644,
+            45.25130227122161,
+            51.2619543046945
+          ],
+          "method": "Kabsch least-squares on observed C-alpha correspondence; offline generator build_manifest.py",
+          "observed_ca_rmsd_angstrom": 23.835266808237098
+        }
+      }
+    },
+    {
+      "8qzo_B": {
+        "experimental": {
+          "url": "data/structures/8qzo_B.experimental.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 39528,
+          "uncompressed_bytes": 124339,
+          "compressed_sha256": "25bb61062d698e5fcd900080eb66164a7fb34efb6fdc67705fab80798c6aaf61",
+          "uncompressed_sha256": "390f9fe229020dc42f81f9c7549dedd097d23e34fdc62004876f9a65d1bce778"
+        },
+        "predicted": {
+          "url": "data/structures/8qzo_B.predicted.aligned.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 29555,
+          "uncompressed_bytes": 112333,
+          "compressed_sha256": "f91525b0cb2632fec5b45040a5d2f8e73debad17a6869a221bca34038e65063b",
+          "uncompressed_sha256": "29b1c95dd13a0d0207106ce7757698d54eb8386c91243be48b357ee1a1fa808b"
+        },
+        "alignment": {
+          "available": true,
+          "direction": "predicted coordinates to experimental coordinates",
+          "convention": "x_experimental = R @ x_predicted + t; R is row-major 3x3; coordinates in predicted asset are already materialized in experimental frame",
+          "rotation": [
+            -0.5778293602724407,
+            0.7824314160798954,
+            0.23219455105224115,
+            -0.5447232954291965,
+            -0.5815794491168453,
+            0.6041869543292895,
+            0.6077744333417607,
+            0.222635180275168,
+            0.7622623004451589
+          ],
+          "translation": [
+            -19.966629802822325,
+            -33.67336087656808,
+            11.052873405136461
+          ],
+          "method": "Kabsch least-squares on observed C-alpha correspondence; offline generator build_manifest.py",
+          "observed_ca_rmsd_angstrom": 7.983367337713057
+        }
+      }
+    },
+    {
+      "8ugc_A": {
+        "experimental": {
+          "url": "data/structures/8ugc_A.experimental.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 51878,
+          "uncompressed_bytes": 175312,
+          "compressed_sha256": "d5e02e7967d872a5e23b709fd606ab4f4060866b753110b66f0a427354cdc82c",
+          "uncompressed_sha256": "7f00d9851830c1c6a12ee6a92a560e5d0d3e3d0526772d62afd0719e2d9dfccd"
+        },
+        "predicted": {
+          "url": "data/structures/8ugc_A.predicted.aligned.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 54176,
+          "uncompressed_bytes": 211957,
+          "compressed_sha256": "b50337c1222d694da8de37c68b9e82813624109d80501da797c6f6c2bd5fa6a7",
+          "uncompressed_sha256": "214befd7834c797e9a826e8fc33d726100e054483ec098c9b147c9ca58a6cddf"
+        },
+        "alignment": {
+          "available": true,
+          "direction": "predicted coordinates to experimental coordinates",
+          "convention": "x_experimental = R @ x_predicted + t; R is row-major 3x3; coordinates in predicted asset are already materialized in experimental frame",
+          "rotation": [
+            -0.9837529612665904,
+            0.17884106270580813,
+            0.015683924555790946,
+            -0.051156639538730286,
+            -0.36299058746716206,
+            0.9303874631793727,
+            0.1720845996314566,
+            0.9144690851529655,
+            0.3662419731122845
+          ],
+          "translation": [
+            11.093280578498156,
+            -17.876216522127603,
+            43.992048878467024
+          ],
+          "method": "Kabsch least-squares on observed C-alpha correspondence; offline generator build_manifest.py",
+          "observed_ca_rmsd_angstrom": 1.0825528147272045
+        }
+      }
+    },
+    {
+      "8un9_A": {
+        "experimental": {
+          "url": "data/structures/8un9_A.experimental.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 87418,
+          "uncompressed_bytes": 328967,
+          "compressed_sha256": "581f99451ffc0f5a0277ddeb3eb90085c460693c88fbabf15c5055abafe1e473",
+          "uncompressed_sha256": "acf9e77ac04469d22a2243a01c33d24041659af605e265901a0ccea54f053279"
+        },
+        "predicted": {
+          "url": "data/structures/8un9_A.predicted.aligned.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 40469,
+          "uncompressed_bytes": 155415,
+          "compressed_sha256": "5b5bc3847850b07cb765d00206d46ab2977deab066b78786b6a53ebad1a52d5e",
+          "uncompressed_sha256": "a0194685d331e83502f07edbb0fa382a7f043f81d9cd426252cce3e78685347b"
+        },
+        "alignment": {
+          "available": true,
+          "direction": "predicted coordinates to experimental coordinates",
+          "convention": "x_experimental = R @ x_predicted + t; R is row-major 3x3; coordinates in predicted asset are already materialized in experimental frame",
+          "rotation": [
+            0.8518225135294069,
+            -0.2526385564583471,
+            0.4588814282961186,
+            -0.3819452660906204,
+            -0.8990612726822304,
+            0.21402486228000103,
+            0.35849158868153186,
+            -0.35757878537974086,
+            -0.8623347337843587
+          ],
+          "translation": [
+            8.392858523558829,
+            -14.050647748120111,
+            -24.16480139865451
+          ],
+          "method": "Kabsch least-squares on observed C-alpha correspondence; offline generator build_manifest.py",
+          "observed_ca_rmsd_angstrom": 3.413812709676499
+        }
+      }
+    },
+    {
+      "8vc8_A": {
+        "experimental": {
+          "url": "data/structures/8vc8_A.experimental.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 43032,
+          "uncompressed_bytes": 134339,
+          "compressed_sha256": "b13d1fdf387959c3acb01d2f42af561df6a584d391825e85b2c5aa767cf463ac",
+          "uncompressed_sha256": "822b551f54851a4a12a7f8b969da13f4b4f3ce2d7281b738514d10d3b7231649"
+        },
+        "predicted": {
+          "url": "data/structures/8vc8_A.predicted.aligned.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 31023,
+          "uncompressed_bytes": 119088,
+          "compressed_sha256": "141f81bdbdc541fdcc9bb4659613789afa0b3aad7004e36ff9a35be01614196f",
+          "uncompressed_sha256": "ad4b4c1785b7df505942e34d5628114d28ff4a34a3594d3f26248a62c6135c85"
+        },
+        "alignment": {
+          "available": true,
+          "direction": "predicted coordinates to experimental coordinates",
+          "convention": "x_experimental = R @ x_predicted + t; R is row-major 3x3; coordinates in predicted asset are already materialized in experimental frame",
+          "rotation": [
+            -0.9157346510612746,
+            -0.11997858019348913,
+            0.38345167771238203,
+            0.3293878016406533,
+            -0.7706827387092777,
+            0.5454830816678958,
+            0.23007330348396296,
+            0.6258220646080811,
+            0.745260369584788
+          ],
+          "translation": [
+            1.5488660573691064,
+            17.335728399030778,
+            14.692677155710872
+          ],
+          "method": "Kabsch least-squares on observed C-alpha correspondence; offline generator build_manifest.py",
+          "observed_ca_rmsd_angstrom": 1.0619630549107832
+        }
+      }
+    },
+    {
+      "9fw7_A": {
+        "experimental": {
+          "url": "data/structures/9fw7_A.experimental.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 34531,
+          "uncompressed_bytes": 119902,
+          "compressed_sha256": "a1ff903e4cfb4521dfcd840508e9f1e8c9ba9f552eb7b7a029dae3fe86bad31c",
+          "uncompressed_sha256": "ed65195a1b10ef6e8703209a3977f221a279ebcb02dfad6a179e40188eec2963"
+        },
+        "predicted": {
+          "url": "data/structures/9fw7_A.predicted.aligned.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 32010,
+          "uncompressed_bytes": 122957,
+          "compressed_sha256": "3fe55329eb947caecbe0b42b118d327717443d67f55de7575fedadf6201ffd7b",
+          "uncompressed_sha256": "53f2c7a6052aab3ee8d25d99be399cfcf142fa2a94582b346262bdb668fb4914"
+        },
+        "alignment": {
+          "available": true,
+          "direction": "predicted coordinates to experimental coordinates",
+          "convention": "x_experimental = R @ x_predicted + t; R is row-major 3x3; coordinates in predicted asset are already materialized in experimental frame",
+          "rotation": [
+            -0.06865559439295946,
+            0.7486204486935778,
+            0.6594344798055194,
+            -0.7288660266898418,
+            0.41369878626224493,
+            -0.5455342605029567,
+            -0.6812053467904609,
+            -0.5180933680746853,
+            0.5172412758675736
+          ],
+          "translation": [
+            17.01596114891055,
+            40.35703427996391,
+            15.872691243391921
+          ],
+          "method": "Kabsch least-squares on observed C-alpha correspondence; offline generator build_manifest.py",
+          "observed_ca_rmsd_angstrom": 1.4044484721328063
+        }
+      }
+    },
+    {
+      "9gcb_A": {
+        "experimental": {
+          "url": "data/structures/9gcb_A.experimental.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 36738,
+          "uncompressed_bytes": 124801,
+          "compressed_sha256": "08a18d19dc50de821ec939f5fad8e341e1687fd9c9ace3ceb82a32dd7e80f9bc",
+          "uncompressed_sha256": "68d6443625c029208457f289ca4422710dad0ead20696fe3e570dbce654f7b4b"
+        },
+        "predicted": {
+          "url": "data/structures/9gcb_A.predicted.aligned.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 31383,
+          "uncompressed_bytes": 119704,
+          "compressed_sha256": "5989439eef82ab153502066e7a94383b74d9f9c753d5c4b6031ddd9b5f480e21",
+          "uncompressed_sha256": "c94f7e79e425a04fd530f14cdc237ec395bb56493aeecb56d784c3ebce1d6fb1"
+        },
+        "alignment": {
+          "available": true,
+          "direction": "predicted coordinates to experimental coordinates",
+          "convention": "x_experimental = R @ x_predicted + t; R is row-major 3x3; coordinates in predicted asset are already materialized in experimental frame",
+          "rotation": [
+            0.7683907900977094,
+            -0.5032818307602386,
+            -0.3953264379214237,
+            0.419279934906017,
+            0.8625665401427457,
+            -0.28316655878012775,
+            0.4835079418977776,
+            0.05183013267198978,
+            0.8738041585326654
+          ],
+          "translation": [
+            -1.3568131611639127,
+            -2.6372736633312788,
+            1.2963957028232067
+          ],
+          "method": "Kabsch least-squares on observed C-alpha correspondence; offline generator build_manifest.py",
+          "observed_ca_rmsd_angstrom": 2.111623553955549
+        }
+      }
+    },
+    {
+      "9igp_A": {
+        "experimental": {
+          "url": "data/structures/9igp_A.experimental.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 65642,
+          "uncompressed_bytes": 221367,
+          "compressed_sha256": "7c697bba8e774a76638dea3dddcfb31edf32f854494ac0ac887278a96b35c4c1",
+          "uncompressed_sha256": "24d319e8a8f5dc14130475df2f831f44bc0231d6648ecce8ac07920c86f83f72"
+        },
+        "predicted": {
+          "url": "data/structures/9igp_A.predicted.aligned.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 56523,
+          "uncompressed_bytes": 217680,
+          "compressed_sha256": "eb5ac1fbf5a088b028bab805787250b920195c8529a49da3637cce65dcc7d577",
+          "uncompressed_sha256": "e430af5e7ba0f7d9833f2ac702687a58b22cd45e5dc15d00ce91c08e0dd7ff81"
+        },
+        "alignment": {
+          "available": true,
+          "direction": "predicted coordinates to experimental coordinates",
+          "convention": "x_experimental = R @ x_predicted + t; R is row-major 3x3; coordinates in predicted asset are already materialized in experimental frame",
+          "rotation": [
+            -0.10099535922552608,
+            0.9906238365336343,
+            0.09200191251430954,
+            -0.518897479598974,
+            0.026450701264052322,
+            -0.8544271566777788,
+            -0.848849423090303,
+            -0.13403273814267772,
+            0.5113608139320385
+          ],
+          "translation": [
+            -28.08053887193569,
+            4.503783252931594,
+            31.80184867215579
+          ],
+          "method": "Kabsch least-squares on observed C-alpha correspondence; offline generator build_manifest.py",
+          "observed_ca_rmsd_angstrom": 3.066163919524253
+        }
+      }
+    },
+    {
+      "9lnf_A": {
+        "experimental": {
+          "url": "data/structures/9lnf_A.experimental.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 58432,
+          "uncompressed_bytes": 201584,
+          "compressed_sha256": "f7db53da34f917b34fcf038798185999bc0e355502955240894218527afdd39f",
+          "uncompressed_sha256": "efb6a935cf9bfd540d6b4b59d633be6f754fc05e2712a23b8c8d384251455938"
+        },
+        "predicted": {
+          "url": "data/structures/9lnf_A.predicted.aligned.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 49978,
+          "uncompressed_bytes": 193719,
+          "compressed_sha256": "5708468483a9c79df8e05b7ab76895b81a801a90742d9624151cf7a917845605",
+          "uncompressed_sha256": "59eddb34c69f6f18fe89567472bf23fe4cd2f9fb114840c3b2a8f558e57be95f"
+        },
+        "alignment": {
+          "available": true,
+          "direction": "predicted coordinates to experimental coordinates",
+          "convention": "x_experimental = R @ x_predicted + t; R is row-major 3x3; coordinates in predicted asset are already materialized in experimental frame",
+          "rotation": [
+            0.4409831810155808,
+            -0.8544236773663798,
+            -0.27476173972569856,
+            0.41755794043558947,
+            0.4662989210538986,
+            -0.7798786332520975,
+            0.7944678725037085,
+            0.2291844143472314,
+            0.562401372490989
+          ],
+          "translation": [
+            10.790434973768114,
+            17.655278876046715,
+            74.15780951685977
+          ],
+          "method": "Kabsch least-squares on observed C-alpha correspondence; offline generator build_manifest.py",
+          "observed_ca_rmsd_angstrom": 2.5662971812414295
+        }
+      }
+    },
+    {
+      "9ub5_A": {
+        "experimental": {
+          "url": "data/structures/9ub5_A.experimental.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 44709,
+          "uncompressed_bytes": 157675,
+          "compressed_sha256": "1b2ce2a831889f83e96ec66d2003dcfc2af26cb22bf58263492abbb58547faa6",
+          "uncompressed_sha256": "818bf622fe16ab88a604e84507da91a58f8ba2005ffc4e9da37116902eed3137"
+        },
+        "predicted": {
+          "url": "data/structures/9ub5_A.predicted.aligned.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 43733,
+          "uncompressed_bytes": 168064,
+          "compressed_sha256": "4e2835d7e10cbc3a4e5aedc2a563ffcc35140d51feef370fe823fd9c6636a1d2",
+          "uncompressed_sha256": "1b84df29525c91584a0ee606c790ba82c306ed60d7ea606337994eaf50c812f5"
+        },
+        "alignment": {
+          "available": true,
+          "direction": "predicted coordinates to experimental coordinates",
+          "convention": "x_experimental = R @ x_predicted + t; R is row-major 3x3; coordinates in predicted asset are already materialized in experimental frame",
+          "rotation": [
+            -0.345879701231246,
+            -0.06878233204928684,
+            0.9357543604354963,
+            0.714364750885155,
+            0.6272845495565345,
+            0.3101565678499258,
+            -0.6083175445184645,
+            0.7757467916050422,
+            -0.16782931908790238
+          ],
+          "translation": [
+            13.97213531868367,
+            -18.38626232441406,
+            5.2142341225290965
+          ],
+          "method": "Kabsch least-squares on observed C-alpha correspondence; offline generator build_manifest.py",
+          "observed_ca_rmsd_angstrom": 1.5909870969226498
+        }
+      }
+    },
+    {
+      "9x86_A": {
+        "experimental": {
+          "url": "data/structures/9x86_A.experimental.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 46321,
+          "uncompressed_bytes": 159802,
+          "compressed_sha256": "08400271727bf0f7cf9c795dc2f2c0f1562e7adfee413ec412dc24881856db2b",
+          "uncompressed_sha256": "d2727f2526e251452a27aa65edc2e7f7ab15b0fcfff0551ad206ad08e4fb4cd3"
+        },
+        "predicted": {
+          "url": "data/structures/9x86_A.predicted.aligned.cif.gz",
+          "format": "mmcif",
+          "compression": "gzip",
+          "compressed_bytes": 46557,
+          "uncompressed_bytes": 181557,
+          "compressed_sha256": "bc3139cde018bd5be18c445c736c4822169babcbe2b7278c88580af5d2385016",
+          "uncompressed_sha256": "2f059f8807ff34c48a8ceb0f557cbf9249eed5222348e2731d1fc053ff7726f0"
+        },
+        "alignment": {
+          "available": true,
+          "direction": "predicted coordinates to experimental coordinates",
+          "convention": "x_experimental = R @ x_predicted + t; R is row-major 3x3; coordinates in predicted asset are already materialized in experimental frame",
+          "rotation": [
+            -0.6790738244879572,
+            0.32288104376989524,
+            0.65924697380372,
+            0.7043926240617104,
+            0.033839735276048916,
+            0.7090034580197088,
+            0.20661503348681398,
+            0.9458343955949743,
+            -0.25041470413442724
+          ],
+          "translation": [
+            14.533807020884984,
+            35.482644671453116,
+            5.4563913452917925
+          ],
+          "method": "Kabsch least-squares on observed C-alpha correspondence; offline generator build_manifest.py",
+          "observed_ca_rmsd_angstrom": 1.557413116470394
+        }
+      }
+    }
+  ]
+}
