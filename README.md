@@ -26,3 +26,5 @@ Copy the contents of `source/dist/` into the repository root to update the stati
 The build validates all thirteen records, twenty-six compressed coordinate assets and every final-result checksum. Five Chromium tests cover overlays and history, rejected labels, mobile overflow, final figures/downloads and visible coordinate errors.
 
 Website manifest SHA-256: `ba95d90b0963f5618b3fd9a0c6decab160e7085bd608d53b3af3383086686542`.
+
+Serialized display alignments are independently checked against the observed-residue C-alpha RMSD in `data/alignment-validation.json`. With Python, NumPy and Gemmi installed, run `python scripts/materialize_alignment.py` from `source/` after staging the public data as above to repeat that coordinate-level check.

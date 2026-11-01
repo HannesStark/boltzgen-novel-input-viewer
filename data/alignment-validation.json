@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "record_id": "37sl_A",
+      "predicted_compressed_sha256": "0c08ddb3e79b979d6f3e3f5d8c0e6d2a1395d710715256b009a74dbbb7fb118b",
+      "experimental_compressed_sha256": "3e2d9a94eb4467f8a4f5c3084701c1d274610d1bc955cb74e441fe0979cc2939",
+      "observed_residues": 295,
+      "materialized_ca_rmsd_angstrom": 0.6854647443516388,
+      "expected_ca_rmsd_angstrom": 0.685464771011202
+    },
+    {
+      "record_id": "37sn_A",
+      "predicted_compressed_sha256": "59ce631cb0e99bef83f883a294fe3b82e4a12bfea92a4d550f3df7df5a617628",
+      "experimental_compressed_sha256": "3b775118c2facee16f6498a37a501b8e2dba43034c6e0c5dfda49e149ba6eb04",
+      "observed_residues": 355,
+      "materialized_ca_rmsd_angstrom": 2.2674343005910043,
+      "expected_ca_rmsd_angstrom": 2.2674342955408098
+    },
+    {
+      "record_id": "8bux_A",
+      "predicted_compressed_sha256": "30da65bfa025672424eb4ccbcc3c8c0ff13e57d2598f1edaaaffe4cc28c21c58",
+      "experimental_compressed_sha256": "353fc4fbc7da478bf17a7ffe9d292fcb7bd6ba5c8043053a4eed8a84235e5791",
+      "observed_residues": 289,
+      "materialized_ca_rmsd_angstrom": 23.83526683684938,
+      "expected_ca_rmsd_angstrom": 23.835266808237098
+    },
+    {
+      "record_id": "8qzo_B",
+      "predicted_compressed_sha256": "945642a83c7249e2d93278ba88f90814b5ea3145a7268993c2a42c6cec84021f",
+      "experimental_compressed_sha256": "25bb61062d698e5fcd900080eb66164a7fb34efb6fdc67705fab80798c6aaf61",
+      "observed_residues": 168,
+      "materialized_ca_rmsd_angstrom": 7.983367308851476,
+      "expected_ca_rmsd_angstrom": 7.983367337713057
+    },
+    {
+      "record_id": "8ugc_A",
+      "predicted_compressed_sha256": "c0ccc8b7d2e21321ffb9bb0939878fcc94aa98dfab9a66e884ba8d7fb76381db",
+      "experimental_compressed_sha256": "d5e02e7967d872a5e23b709fd606ab4f4060866b753110b66f0a427354cdc82c",
+      "observed_residues": 384,
+      "materialized_ca_rmsd_angstrom": 1.0825527963916977,
+      "expected_ca_rmsd_angstrom": 1.0825528147272045
+    },
+    {
+      "record_id": "8un9_A",
+      "predicted_compressed_sha256": "2b4d8b5fc1ef831621e01430e68412eafc83f31fd286afa31483d9066f361e7f",
+      "experimental_compressed_sha256": "581f99451ffc0f5a0277ddeb3eb90085c460693c88fbabf15c5055abafe1e473",
+      "observed_residues": 229,
+      "materialized_ca_rmsd_angstrom": 3.413812694026203,
+      "expected_ca_rmsd_angstrom": 3.413812709676499
+    },
+    {
+      "record_id": "8vc8_A",
+      "predicted_compressed_sha256": "b9c6ecfe21225e2262874439d734d62a7de26a4aba19045b44fd6511fcebb78a",
+      "experimental_compressed_sha256": "b13d1fdf387959c3acb01d2f42af561df6a584d391825e85b2c5aa767cf463ac",
+      "observed_residues": 197,
+      "materialized_ca_rmsd_angstrom": 1.0619630781283225,
+      "expected_ca_rmsd_angstrom": 1.0619630549107832
+    },
+    {
+      "record_id": "9fw7_A",
+      "predicted_compressed_sha256": "6e088480e7e7f7fdf345702dac274a30254c54b54d8b0daa11b0c32781db6aaa",
+      "experimental_compressed_sha256": "a1ff903e4cfb4521dfcd840508e9f1e8c9ba9f552eb7b7a029dae3fe86bad31c",
+      "observed_residues": 199,
+      "materialized_ca_rmsd_angstrom": 1.4044484717880124,
+      "expected_ca_rmsd_angstrom": 1.4044484721328063
+    },
+    {
+      "record_id": "9gcb_A",
+      "predicted_compressed_sha256": "d72f615703fd6d04161549b2756cc04b4de7247bdcd9e30eec274bacea689962",
+      "experimental_compressed_sha256": "08a18d19dc50de821ec939f5fad8e341e1687fd9c9ace3ceb82a32dd7e80f9bc",
+      "observed_residues": 213,
+      "materialized_ca_rmsd_angstrom": 2.1116235794263236,
+      "expected_ca_rmsd_angstrom": 2.111623553955549
+    },
+    {
+      "record_id": "9igp_A",
+      "predicted_compressed_sha256": "f9f36d46158ff8d3c640d7707404085b0d8e757d01a7a99ae17e261fa1cbdfcd",
+      "experimental_compressed_sha256": "7c697bba8e774a76638dea3dddcfb31edf32f854494ac0ac887278a96b35c4c1",
+      "observed_residues": 376,
+      "materialized_ca_rmsd_angstrom": 3.0661639051733185,
+      "expected_ca_rmsd_angstrom": 3.066163919524253
+    },
+    {
+      "record_id": "9lnf_A",
+      "predicted_compressed_sha256": "642942a32293a7bb8960aea35f3f8a433aa32f6241592771c39a27134cc5bb1d",
+      "experimental_compressed_sha256": "f7db53da34f917b34fcf038798185999bc0e355502955240894218527afdd39f",
+      "observed_residues": 330,
+      "materialized_ca_rmsd_angstrom": 2.566297183013929,
+      "expected_ca_rmsd_angstrom": 2.5662971812414295
+    },
+    {
+      "record_id": "9ub5_A",
+      "predicted_compressed_sha256": "7ae4d9f7ed8b3093974d6e9b69dd71d84ade7d223c78e0566dc07779f3e0a13a",
+      "experimental_compressed_sha256": "1b2ce2a831889f83e96ec66d2003dcfc2af26cb22bf58263492abbb58547faa6",
+      "observed_residues": 244,
+      "materialized_ca_rmsd_angstrom": 1.5909871269422966,
+      "expected_ca_rmsd_angstrom": 1.5909870969226498
+    },
+    {
+      "record_id": "9x86_A",
+      "predicted_compressed_sha256": "71375664eb45ed7429f37ac7aa3078ff5a1252c84d8134dbd258d2d8e17ee8e7",
+      "experimental_compressed_sha256": "08400271727bf0f7cf9c795dc2f2c0f1562e7adfee413ec412dc24881856db2b",
+      "observed_residues": 255,
+      "materialized_ca_rmsd_angstrom": 1.55741311385557,
+      "expected_ca_rmsd_angstrom": 1.557413116470394
+    }
+  ]
+}

@@ -336,10 +336,10 @@
           "url": "data/structures/37sl_A.predicted.aligned.cif.gz",
           "format": "mmcif",
           "compression": "gzip",
-          "compressed_bytes": 44100,
-          "uncompressed_bytes": 171599,
-          "compressed_sha256": "881f85f394fdec294e3a8b5caa9f2e1dbb58a01f6c21b30601b75c3b8b545011",
-          "uncompressed_sha256": "9868aef37b40ac9471483b04339687b952e17a147e4d7ddfb688e0bb22252039"
+          "compressed_bytes": 57641,
+          "uncompressed_bytes": 191306,
+          "compressed_sha256": "0c08ddb3e79b979d6f3e3f5d8c0e6d2a1395d710715256b009a74dbbb7fb118b",
+          "uncompressed_sha256": "4e3104ca1d80382c4acc569fea3c7b1d4a3c5d2a1614aa62e1775c78edbddcae"
         },
         "label_asym_id": "A",
         "auth_asym_id": "A",
@@ -781,10 +781,10 @@
           "url": "data/structures/37sn_A.predicted.aligned.cif.gz",
           "format": "mmcif",
           "compression": "gzip",
-          "compressed_bytes": 53541,
-          "uncompressed_bytes": 209127,
-          "compressed_sha256": "f352d0a94d8965aee4b1a4818500d7a01bd398ea4a8d2a9ec8729c1d15e18128",
-          "uncompressed_sha256": "608ad01018599f91063874c398a06c60e00b4c4ef4a729750d9f35f5f40fd6d0"
+          "compressed_bytes": 69712,
+          "uncompressed_bytes": 233496,
+          "compressed_sha256": "59ce631cb0e99bef83f883a294fe3b82e4a12bfea92a4d550f3df7df5a617628",
+          "uncompressed_sha256": "98f1c4fefa80c10c92f7daf2676cd6e979ce41f1a715853ddff48aec83d0ed0f"
         },
         "label_asym_id": "A",
         "auth_asym_id": "A",
@@ -1160,10 +1160,10 @@
           "url": "data/structures/8bux_A.predicted.aligned.cif.gz",
           "format": "mmcif",
           "compression": "gzip",
-          "compressed_bytes": 50966,
-          "uncompressed_bytes": 196195,
-          "compressed_sha256": "5094275416c81f01e8e72203e31c96e2abb98bd2089bd8a6f3caa58180a76b49",
-          "uncompressed_sha256": "5a7bda8e531a6032c5ff53a0a9a50f075a75f869f191ded0e092b82da8b47cfa"
+          "compressed_bytes": 66019,
+          "uncompressed_bytes": 219326,
+          "compressed_sha256": "30da65bfa025672424eb4ccbcc3c8c0ff13e57d2598f1edaaaffe4cc28c21c58",
+          "uncompressed_sha256": "95407fa0aeeeb82b889e99ad6f6a08cdbdddf252032cb7b873874988c056c8ec"
         },
         "label_asym_id": "A",
         "auth_asym_id": "A",
@@ -1418,10 +1418,10 @@
           "url": "data/structures/8qzo_B.predicted.aligned.cif.gz",
           "format": "mmcif",
           "compression": "gzip",
-          "compressed_bytes": 29555,
-          "uncompressed_bytes": 112333,
-          "compressed_sha256": "f91525b0cb2632fec5b45040a5d2f8e73debad17a6869a221bca34038e65063b",
-          "uncompressed_sha256": "29b1c95dd13a0d0207106ce7757698d54eb8386c91243be48b357ee1a1fa808b"
+          "compressed_bytes": 38708,
+          "uncompressed_bytes": 128189,
+          "compressed_sha256": "945642a83c7249e2d93278ba88f90814b5ea3145a7268993c2a42c6cec84021f",
+          "uncompressed_sha256": "4d9d20430c2edbf5c1fa65d43b61968a571e94ac04321eb485a56f52f4ba7472"
         },
         "label_asym_id": "A",
         "auth_asym_id": "A",
@@ -1892,10 +1892,10 @@
           "url": "data/structures/8ugc_A.predicted.aligned.cif.gz",
           "format": "mmcif",
           "compression": "gzip",
-          "compressed_bytes": 54176,
-          "uncompressed_bytes": 211957,
-          "compressed_sha256": "b50337c1222d694da8de37c68b9e82813624109d80501da797c6f6c2bd5fa6a7",
-          "uncompressed_sha256": "214befd7834c797e9a826e8fc33d726100e054483ec098c9b147c9ca58a6cddf"
+          "compressed_bytes": 70701,
+          "uncompressed_bytes": 237242,
+          "compressed_sha256": "c0ccc8b7d2e21321ffb9bb0939878fcc94aa98dfab9a66e884ba8d7fb76381db",
+          "uncompressed_sha256": "8ca126f07bbd9c21115f97aedf8dc79b1608fe74dcb1296e04ce8a9bdb6e76c0"
         },
         "label_asym_id": "A",
         "auth_asym_id": "A",
@@ -2211,10 +2211,10 @@
           "url": "data/structures/8un9_A.predicted.aligned.cif.gz",
           "format": "mmcif",
           "compression": "gzip",
-          "compressed_bytes": 40469,
-          "uncompressed_bytes": 155415,
-          "compressed_sha256": "5b5bc3847850b07cb765d00206d46ab2977deab066b78786b6a53ebad1a52d5e",
-          "uncompressed_sha256": "a0194685d331e83502f07edbb0fa382a7f043f81d9cd426252cce3e78685347b"
+          "compressed_bytes": 52724,
+          "uncompressed_bytes": 176624,
+          "compressed_sha256": "2b4d8b5fc1ef831621e01430e68412eafc83f31fd286afa31483d9066f361e7f",
+          "uncompressed_sha256": "9a6f76aa319c6edf2cd9edf86bf0506dc66b490c31d655a7d439e4640e9e5b5b"
         },
         "label_asym_id": "A",
         "auth_asym_id": "A",
@@ -2498,10 +2498,10 @@
           "url": "data/structures/8vc8_A.predicted.aligned.cif.gz",
           "format": "mmcif",
           "compression": "gzip",
-          "compressed_bytes": 31023,
-          "uncompressed_bytes": 119088,
-          "compressed_sha256": "141f81bdbdc541fdcc9bb4659613789afa0b3aad7004e36ff9a35be01614196f",
-          "uncompressed_sha256": "ad4b4c1785b7df505942e34d5628114d28ff4a34a3594d3f26248a62c6135c85"
+          "compressed_bytes": 40228,
+          "uncompressed_bytes": 132939,
+          "compressed_sha256": "b9c6ecfe21225e2262874439d734d62a7de26a4aba19045b44fd6511fcebb78a",
+          "uncompressed_sha256": "3d5aca82dc9af77187fc54dcceecbbfdf0501ebb0a64949426c39506d7ca875f"
         },
         "label_asym_id": "A",
         "auth_asym_id": "A",
@@ -2787,10 +2787,10 @@
           "url": "data/structures/9fw7_A.predicted.aligned.cif.gz",
           "format": "mmcif",
           "compression": "gzip",
-          "compressed_bytes": 32010,
-          "uncompressed_bytes": 122957,
-          "compressed_sha256": "3fe55329eb947caecbe0b42b118d327717443d67f55de7575fedadf6201ffd7b",
-          "uncompressed_sha256": "53f2c7a6052aab3ee8d25d99be399cfcf142fa2a94582b346262bdb668fb4914"
+          "compressed_bytes": 41830,
+          "uncompressed_bytes": 137553,
+          "compressed_sha256": "6e088480e7e7f7fdf345702dac274a30254c54b54d8b0daa11b0c32781db6aaa",
+          "uncompressed_sha256": "c6a2332044e1ef855dbadb98d52b4d4cade5810bb0e2991925a5a1276d4ae5e8"
         },
         "label_asym_id": "A",
         "auth_asym_id": "A",
@@ -3090,10 +3090,10 @@
           "url": "data/structures/9gcb_A.predicted.aligned.cif.gz",
           "format": "mmcif",
           "compression": "gzip",
-          "compressed_bytes": 31383,
-          "uncompressed_bytes": 119704,
-          "compressed_sha256": "5989439eef82ab153502066e7a94383b74d9f9c753d5c4b6031ddd9b5f480e21",
-          "uncompressed_sha256": "c94f7e79e425a04fd530f14cdc237ec395bb56493aeecb56d784c3ebce1d6fb1"
+          "compressed_bytes": 40570,
+          "uncompressed_bytes": 133897,
+          "compressed_sha256": "d72f615703fd6d04161549b2756cc04b4de7247bdcd9e30eec274bacea689962",
+          "uncompressed_sha256": "dc22e7addd39508c5c180d5ac04a027cbf623c1e419d623e9c11228a80cae93b"
         },
         "label_asym_id": "A",
         "auth_asym_id": "A",
@@ -3556,10 +3556,10 @@
           "url": "data/structures/9igp_A.predicted.aligned.cif.gz",
           "format": "mmcif",
           "compression": "gzip",
-          "compressed_bytes": 56523,
-          "uncompressed_bytes": 217680,
-          "compressed_sha256": "eb5ac1fbf5a088b028bab805787250b920195c8529a49da3637cce65dcc7d577",
-          "uncompressed_sha256": "e430af5e7ba0f7d9833f2ac702687a58b22cd45e5dc15d00ce91c08e0dd7ff81"
+          "compressed_bytes": 73219,
+          "uncompressed_bytes": 243901,
+          "compressed_sha256": "f9f36d46158ff8d3c640d7707404085b0d8e757d01a7a99ae17e261fa1cbdfcd",
+          "uncompressed_sha256": "18746e91025a51d73a2dcc62ce407e06b5a74bac758dcedff8172b2ae94cc8b9"
         },
         "label_asym_id": "A",
         "auth_asym_id": "A",
@@ -3976,10 +3976,10 @@
           "url": "data/structures/9lnf_A.predicted.aligned.cif.gz",
           "format": "mmcif",
           "compression": "gzip",
-          "compressed_bytes": 49978,
-          "uncompressed_bytes": 193719,
-          "compressed_sha256": "5708468483a9c79df8e05b7ab76895b81a801a90742d9624151cf7a917845605",
-          "uncompressed_sha256": "59eddb34c69f6f18fe89567472bf23fe4cd2f9fb114840c3b2a8f558e57be95f"
+          "compressed_bytes": 65321,
+          "uncompressed_bytes": 215271,
+          "compressed_sha256": "642942a32293a7bb8960aea35f3f8a433aa32f6241592771c39a27134cc5bb1d",
+          "uncompressed_sha256": "61088d66ec14c23f49c535e21054e588325e71c1e194376446ae4e220d1ea7da"
         },
         "label_asym_id": "A",
         "auth_asym_id": "A",
@@ -4310,10 +4310,10 @@
           "url": "data/structures/9ub5_A.predicted.aligned.cif.gz",
           "format": "mmcif",
           "compression": "gzip",
-          "compressed_bytes": 43733,
-          "uncompressed_bytes": 168064,
-          "compressed_sha256": "4e2835d7e10cbc3a4e5aedc2a563ffcc35140d51feef370fe823fd9c6636a1d2",
-          "uncompressed_sha256": "1b84df29525c91584a0ee606c790ba82c306ed60d7ea606337994eaf50c812f5"
+          "compressed_bytes": 56815,
+          "uncompressed_bytes": 189139,
+          "compressed_sha256": "7ae4d9f7ed8b3093974d6e9b69dd71d84ade7d223c78e0566dc07779f3e0a13a",
+          "uncompressed_sha256": "fdc2c1fc7d27203b07f9cce405318f73bc6ea39e0cd9db4200b9bd6d8cb1bb25"
         },
         "label_asym_id": "A",
         "auth_asym_id": "A",
@@ -4655,10 +4655,10 @@
           "url": "data/structures/9x86_A.predicted.aligned.cif.gz",
           "format": "mmcif",
           "compression": "gzip",
-          "compressed_bytes": 46557,
-          "uncompressed_bytes": 181557,
-          "compressed_sha256": "bc3139cde018bd5be18c445c736c4822169babcbe2b7278c88580af5d2385016",
-          "uncompressed_sha256": "2f059f8807ff34c48a8ceb0f557cbf9249eed5222348e2731d1fc053ff7726f0"
+          "compressed_bytes": 60972,
+          "uncompressed_bytes": 201688,
+          "compressed_sha256": "71375664eb45ed7429f37ac7aa3078ff5a1252c84d8134dbd258d2d8e17ee8e7",
+          "uncompressed_sha256": "567a5f0eb433a5c19555df6e2ea8a5bf4f79180f98b8886ca4bc77b794007e18"
         },
         "label_asym_id": "A",
         "auth_asym_id": "A",
@@ -4816,6 +4816,7 @@
     "accuracy_sha256": "ca3bed7d4a966c36cd73e9ffd40a862cdd2617cebd4c7ba53d6ab562c1e7887f",
     "frozen_panel_sha256": "824c3cc34bb72087ca21fb3806d6e0c34c3ec2e6dd09596be45a58d3df769ef7",
     "generator": "scripts/build_manifest.py",
-    "source_snapshot": "Qualification/prediction evidence is retained in the approved S3 experiment topic; public assets contain only curated structures and annotations."
+    "source_snapshot": "Qualification/prediction evidence is retained in the approved S3 experiment topic; public assets contain only curated structures and annotations.",
+    "display_alignment_verified": "All 13 serialized coordinate pairs independently checked against manifest C-alpha RMSD; display-only transforms."
   }
 }

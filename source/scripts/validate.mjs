@@ -17,3 +17,8 @@ if(manifest.production_results.status==='complete'){
  }
  console.log('validated final result counts, four figure pairs, and all curated result checksums');
 }
+
+const alignment=JSON.parse(readFileSync(new URL('alignment-validation.json',root),'utf8'));
+if(!alignment.passed || alignment.records.length!==manifest.records.length)throw new Error('Alignment audit missing');
+for(const r of manifest.records){const a=alignment.records.find(x=>x.record_id===r.record_id);if(!a || a.predicted_compressed_sha256!==r.predicted.coordinate.compressed_sha256 || a.experimental_compressed_sha256!==r.experimental.coordinate.compressed_sha256 || Math.abs(a.materialized_ca_rmsd_angstrom-r.alignment.observed_ca_rmsd_angstrom)>2e-5)throw new Error('Serialized alignment audit mismatch: '+r.record_id);}
+console.log('validated serialized alignment evidence for all 13 coordinate pairs');
